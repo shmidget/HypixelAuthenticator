@@ -12,8 +12,13 @@
 - You have correctly put your Bot Token into the .env file.
 - You have given the bot sufficient permissions.
 
-# Adjust the HypixelAuthenticator Verified role.
+# Adjust the HypixelAuthenticator Verified role:
 - By doing this you can for example, create a system where unverified are in a locked channel awaiting to be verified, hence the rest of the discord users are properly authenticated.
 
-# Supported Commands
+# Supported Commands:
 - !register <username> => Authenticates you with the bot, under the username you have provided.
+
+# Dependencies:
+- discord.js (14.11.0)
+- dotenv (16.3.1)
+- requestify (0.2.5)
