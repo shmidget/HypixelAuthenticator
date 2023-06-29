@@ -4,7 +4,7 @@
 # Steps to link your account:
 - Log onto Hypixel, provide your discord name and tag for your discord account via the Social settings.
 - Make sure the bot is on the server.
-- Type !register <username> 
+- Type !register (username) 
 - The Bot will tell provide you with an embed to tell you if the authentication was successful.
 - If the authentication was successful, the Bot will give you a Beige Colored role name "HypixelAuthenticator Verified".
 
@@ -16,7 +16,7 @@
 - By doing this you can for example, create a system where unverified are in a locked channel awaiting to be verified, hence the rest of the discord users are properly authenticated.
 
 # Supported Commands:
-- !register <username> => Authenticates you with the bot, under the username you have provided.
+- !register (username) -> Authenticates you with the bot, under the username you have provided.
 
 # Dependencies:
 - discord.js (14.11.0)
